@@ -71,6 +71,8 @@ By learning *when not to retrain*, the system reduces cost,instability, and unne
 
 ---
 
+Tested main.py for synthetic data should look like 
+<img width="991" height="246" alt="image" src="https://github.com/user-attachments/assets/8d6454db-1901-4974-bba5-3fcc6e4021de" />
 ## How to Run Locally
 
 ```bash
@@ -78,6 +80,6 @@ python test.py            # sanity check
 python train_policy.py    # train control policy
 python main.py            # run trained system
 
-Tested main.py for synthetic data should look like 
-<img width="991" height="246" alt="image" src="https://github.com/user-attachments/assets/8d6454db-1901-4974-bba5-3fcc6e4021de" />
+
+
 
