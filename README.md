@@ -1,4 +1,4 @@
-# Blackwall — Self-Healing ML Control System
+# Blackwall - Self-Healing ML Control System
 
 Blackwall is a **self-healing machine learning control system** that learns *when* to intervene in production ML pipelines instead of blindly retraining models.
 
@@ -6,9 +6,9 @@ It separates **prediction** from **adaptation** by introducing a learned control
 
 
 ### Supported actions: -
-- **OBSERVE** — no action taken  
-- **FINETUNE** — lightweight retraining  
-- **RETRAIN** — full retraining  
+- **OBSERVE** - no action taken  
+- **FINETUNE** - lightweight retraining  
+- **RETRAIN** - full retraining  
 
 The system optimizes the tradeoff between **model confidence** and **retraining cost**.
 
@@ -77,3 +77,4 @@ By learning *when not to retrain*, the system reduces cost,instability, and unne
 python test.py            # sanity check
 python train_policy.py    # train control policy
 python main.py            # run trained system
+
