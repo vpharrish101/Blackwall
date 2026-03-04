@@ -18,9 +18,10 @@ The system optimizes the tradeoff between **model confidence** and **retraining 
 2. Health signals are computed per model.
 3. Attention-based policy evaluates all models jointly.
 4. Policy selects actions for each model.
-5. Retraining is triggered only when beneficial
-6. System continues without global restarts.
-
+5. Retraining is triggered only when beneficial.
+6. Training jobs are executed asynchronously through the backend service.
+7. Updated models are loaded back into the system.
+8. System continues without global restarts.
 
 ## Observed Behavior: -
 
@@ -79,6 +80,7 @@ Tested main.py for synthetic data should look like
 python test.py            # sanity check
 python train_policy.py    # train control policy
 python main.py            # run trained system
+
 
 
 
