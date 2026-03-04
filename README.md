@@ -10,6 +10,10 @@ It separates **prediction** from **adaptation** by introducing a learned control
 - **FINETUNE** - lightweight retraining  
 - **RETRAIN** - full retraining  
 
+## Architecutre Diagram: -
+<img width="400" height="7596" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/c80abba0-3be0-4bf1-9fe1-43fe57213c13" />
+
+
 The system optimizes the tradeoff between **model confidence** and **retraining cost**.
 
 ## Execution Flow: -
@@ -80,6 +84,7 @@ Tested main.py for synthetic data should look like
 python test.py            # sanity check
 python train_policy.py    # train control policy
 python main.py            # run trained system
+
 
 
 
